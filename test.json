@@ -1,0 +1,21 @@
+# Parameters: A dictionary beginning with "{" and ending with "}"
+#
+# Parameters are defined as "keyword" (name) and "value" pairs.
+
+{
+  "root_path"                        : "/mnt/data/silverbrane/shared/detector_asset",
+  "input_directory"                  : "../video_file_read",
+  "output_directory"                 : "../fcis_overlay_out",
+
+  "fcis_config_path"                 : "z_fcis_cfgs.yaml",
+  "fcis_checkpoint_path"             : "e2e",
+  "fcis_checkpoint_epoch"            : "10",
+  "fcis_threshold"                   : "0.7",
+  "fcis_class_colour_path"           : "colours.json",
+  "layer_order_json"                 : "annotation_layer_order_file.json",
+  "class_key_overwrite"              : "asset",
+  "remove_frames"                    : "false",
+
+  "gpu_id"                           : "2"
+}
+
